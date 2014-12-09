@@ -4,26 +4,26 @@ data:extend({
     name = "compressed-coal",
     icon = "__Factorio_Mod__/graphics/icon_compresscoal.png",
     flags = { "goes-to-quickbar" },
-    subgroup = "energy",
+    subgroup = "raw-material",
     stack_size = 200,
-    fuel_value = 50
+    fuel_value = "50MJ"
   },
   {
     type = "item",
     name = "giant-chest",
-    icon = "__base__/graphics/icons/wooden-chest.png",
+    icon = "__base__/graphics/icons/wood-chest.png",
     flags = { "goes-to-quickbar" },
-    subgroup = "logistics",
+    subgroup = "storage",
     stack_size = 50,
-    fuel_value = 0.1
+    fuel_value = "0.1MJ"
   },
   {
     type = "item",
     name = "tree-seed",
     icon = "__Factorio_Mod__/graphics/tree-seed.png",
     flags = { "goes-to-quickbar" },
-    subgroup = "materials",
+    subgroup = "raw-material",
     stack_size = 50,
-    fuel_value = 0.1
+    fuel_value = "0.1MJ"
   }
 })

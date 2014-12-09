@@ -2,7 +2,7 @@ data:extend({
   {
       type = "technology",
       name = "coal-compressing",
-      icon = "__Factorio_Mod__/graphics/coalcomp-tech.png",
+      icon = "__Factorio_Mod__/graphics/icon_compresscoal.png",
       effects =
       {
         {
@@ -29,7 +29,7 @@ data:extend({
   {
     type = "technology",
     name = "big-storage",
-    icon = "__Factorio_Mod__/graphics/bigstorage-tech.png",
+    icon = "__base__/graphics/icons/wooden-chest.png",
     effects =
     {
       {
@@ -48,4 +48,5 @@ data:extend({
     },
     time = 25
   }
+}
 })
