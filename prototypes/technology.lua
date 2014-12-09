@@ -1,8 +1,8 @@
 data:extend({
   {
       type = "technology",
-      name = "coal-compress",
-      icon = "__BomberTutorial__/graphics/icon_bomber_tech.png",
+      name = "coal-compressing",
+      icon = "__Factorio_Mod__/graphics/coalcomp-tech.png",
       effects =
       {
         {
