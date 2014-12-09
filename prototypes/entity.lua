@@ -36,8 +36,8 @@ data:extend({
      {
        filename = "__Factorio_Mod__/graphics/tree-seed.png",
        priority = "extra-high",
-       width = 46,
-       height = 33,
+       width = 32,
+       height = 32,
        shift = {0.3, 0}
      }
   }
