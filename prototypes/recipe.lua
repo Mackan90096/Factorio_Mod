@@ -35,5 +35,18 @@ data:extend({
     {
      {type="item", name="giant-chest", amount=1}
     }
+  },
+  {
+    type = "recipe",
+    name = "tree-seed",
+    enabled = "true",
+    ingredients =
+    {
+      {"raw-wood",1}
+    },
+    results =
+    {
+     {type="item", name="tree-seed", amount=1}
+    }
   }
 })

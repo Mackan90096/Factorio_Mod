@@ -16,5 +16,14 @@ data:extend({
     subgroup = "logistics",
     stack_size = 50,
     fuel_value = 0.1
+  },
+  {
+    type = "item",
+    name = "tree-seed",
+    icon = "__Factorio_Mod__/graphics/tree-seed.png",
+    flags = { "goes-to-quickbar" },
+    subgroup = "materials",
+    stack_size = 50,
+    fuel_value = 0.1
   }
 })
