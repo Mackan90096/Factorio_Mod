@@ -11,9 +11,10 @@ data:extend({
   {
     type = "item",
     name = "giant-chest",
-    icon = "__base__/graphics/icons/wood-chest.png",
+    icon = "__base__/graphics/icons/wooden-chest.png",
     flags = { "goes-to-quickbar" },
     subgroup = "storage",
+    place_result = "giant-chest",
     stack_size = 50,
     fuel_value = "0.1MJ"
   },
@@ -23,6 +24,7 @@ data:extend({
     icon = "__Factorio_Mod__/graphics/tree-seed.png",
     flags = { "goes-to-quickbar" },
     subgroup = "raw-material",
+    place_result = "tree-seed",
     stack_size = 50,
     fuel_value = "0.1MJ"
   }

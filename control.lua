@@ -1,12 +1,9 @@
 require "util"
 require "defines"
 
-game.oninit(function()
-glob.bomber = 0
-end)
-
 game.onevent(defines.events.onbuiltentity, function(e)
-  if e.name == "tree-seed" then
-    game.createentity{name = "big-tree", position= {e.position.x, e.position.y}}
+  if e.createdentity.name == "tree-seed" then
+    game.createentity{name = "green-tree", position= e.createdentity.position}
+   e.createdentity.destroy()
   end
 end)
