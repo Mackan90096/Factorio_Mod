@@ -2,11 +2,11 @@ data:extend({
  {
     type = "recipe",
     name = "compressed-coal",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"coal",50}
     },
-    result = "mackan-fuel"
+    result = "compressed-coal"
   }
 })
