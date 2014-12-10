@@ -28,6 +28,7 @@ data:extend({
     stack_size = 50,
     fuel_value = "0.1MJ"
   },
+<<<<<<< HEAD
    {
     type = "item",
     name = "super-belt",
@@ -56,6 +57,15 @@ data:extend({
     subgroup = "belt",
     order = "a",
     place_result = "super-b2g",
+=======
+  {
+    type = "item",
+    name = "path",
+    icon = "__Factorio_Mod__/graphics/path.png",
+    flags = { "goes-to-quickbar" },
+    subgroup = "raw-material",
+    place_result = "path",
+>>>>>>> origin/master
     stack_size = 50
   }
 })

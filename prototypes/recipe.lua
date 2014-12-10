@@ -48,5 +48,18 @@ data:extend({
     {
      {type="item", name="tree-seed", amount=1}
     }
+  },
+  {
+   type = "recipe",
+   name = "path",
+   enabled = "true",
+   ingredients =
+   {
+    {"stone",2}
+   },
+ results =
+ {
+   {type="item", name="path", amount=1}
+ }
   }
 })
