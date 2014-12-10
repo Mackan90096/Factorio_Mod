@@ -31,21 +31,20 @@ data:extend({
     }
   },
   {
-   type = "container",
-   name = "tree-seed",
-   icon = "__Factorio_Mod__/graphics/tree-seed.png",
+   type = "entity",
+   name = "path",
+   icon = "__Factorio_Mod__/graphics/path.png",
    flags = {"placeable-neutral", "player-creation"},
-   minable = {mining_time = 10, result = "raw-wood"},
+   minable = {mining_time = 10, result = "path"},
    collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
    max_health = 50,
      corpse = "small-remnants",
-     fast_replaceable_group = "container",
-     inventory_size = 0,
+     fast_replaceable_group = "entity",
      order = "a",
      picture =
      {
-       filename = "__Factorio_Mod__/graphics/tree-seed.png",
+       filename = "__Factorio_Mod__/graphics/path.png",
        priority = "extra-high",
        width = 32,
        height = 32,

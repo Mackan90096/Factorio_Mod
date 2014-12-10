@@ -27,5 +27,14 @@ data:extend({
     place_result = "tree-seed",
     stack_size = 50,
     fuel_value = "0.1MJ"
+  },
+  {
+    type = "item",
+    name = "path",
+    icon = "__Factorio_Mod__/graphics/path.png",
+    flags = { "goes-to-quickbar" },
+    subgroup = "raw-material",
+    place_result = "path",
+    stack_size = 50
   }
 })
