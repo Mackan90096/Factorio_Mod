@@ -27,5 +27,35 @@ data:extend({
     place_result = "tree-seed",
     stack_size = 50,
     fuel_value = "0.1MJ"
+  },
+   {
+    type = "item",
+    name = "super-belt",
+    icon = "__Factorio_Mod__/graphics/icons/belt.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "belt",
+    order = "a",
+    place_result = "super-belt",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "super-splitter",
+    icon = "__Factorio_Mod__/graphics/icons/splitter.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "belt",
+    order = "a",
+    place_result = "super-splitter",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "super-b2g",
+    icon = "__Factorio_Mod__/graphics/icons/b2g.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "belt",
+    order = "a",
+    place_result = "super-b2g",
+    stack_size = 50
   }
 })

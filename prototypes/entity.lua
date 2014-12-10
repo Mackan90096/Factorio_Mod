@@ -1,3 +1,4 @@
+require("prototypes.belt")
 data:extend({
  {
     type = "container",
