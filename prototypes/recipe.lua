@@ -51,15 +51,15 @@ data:extend({
   },
   {
    type = "recipe",
-   name = "path",
+   name = "super-belt",
    enabled = "true",
-   ingredients =
-   {
-    {"stone",2}
-   },
- results =
- {
-   {type="item", name="path", amount=1}
- }
+   ingredients = {
+      {"engine-unit", 2},
+      {"iron-plate", 10},
+      {"copper-plate", 10}
+    },
+    results = {
+      {type="item", name="super-belt", amount=1}
+    }
   }
 })

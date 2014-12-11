@@ -30,26 +30,5 @@ data:extend({
       height = 34,
       shift = {0.2, 0}
     }
-  },
-  {
-   type = "entity",
-   name = "path",
-   icon = "__Factorio_Mod__/graphics/path.png",
-   flags = {"placeable-neutral", "player-creation"},
-   minable = {mining_time = 10, result = "path"},
-   collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
-   selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-   max_health = 50,
-     corpse = "small-remnants",
-     fast_replaceable_group = "entity",
-     order = "a",
-     picture =
-     {
-       filename = "__Factorio_Mod__/graphics/path.png",
-       priority = "extra-high",
-       width = 32,
-       height = 32,
-       shift = {0.3, 0}
-     }
   }
 })
