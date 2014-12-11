@@ -5,7 +5,7 @@ super_belt_horizontal =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32
+    frame_count = 16
   }
 super_belt_vertical =
   {
@@ -13,7 +13,7 @@ super_belt_vertical =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 40
   }
 super_belt_ending_top =
@@ -22,7 +22,7 @@ super_belt_ending_top =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 80
   }
 super_belt_ending_bottom =
@@ -31,7 +31,7 @@ super_belt_ending_bottom =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 120
   }
 super_belt_ending_side =
@@ -40,7 +40,7 @@ super_belt_ending_side =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 160
   }
 super_belt_starting_top =
@@ -49,7 +49,7 @@ super_belt_starting_top =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 200
   }
 super_belt_starting_bottom =
@@ -58,7 +58,7 @@ super_belt_starting_bottom =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 240
   }
 super_belt_starting_side =
@@ -67,6 +67,6 @@ super_belt_starting_side =
     priority = "extra-high",
     width = 40,
     height = 40,
-    frame_count = 32,
+    frame_count = 16,
     y = 280
   }
