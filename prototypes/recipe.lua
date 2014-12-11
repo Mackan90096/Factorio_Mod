@@ -61,5 +61,30 @@ data:extend({
     results = {
       {type="item", name="super-belt", amount=1}
     }
+  },
+  {
+   type = "recipe",
+   name = "super-splitter",
+   enabled = "true",
+   ingredients = {
+      {"super-belt", 4},
+      {"iron-gear-wheel", 15},
+      {"advanced-circuit", 15}
+    },
+    results = {
+      {type="item", name="super-splitter", amount=1}
+    }
+  },
+{
+   type = "recipe",
+   name = "super-b2g",
+   enabled = "true",
+   ingredients = {
+      {"super-belt", 5},
+      {"iron-gear-wheel", 20}
+    },
+    results = {
+      {type="item", name="super-belt", amount=1}
+    }
   }
 })
