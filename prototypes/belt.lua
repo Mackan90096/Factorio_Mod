@@ -99,7 +99,7 @@ data:extend({
       priority = "extra-high",
       width = 40,
       height = 40,
-      frame_count = 32,
+      frame_count = 16,
       direction_count = 12
     },
     belt_horizontal = super_belt_horizontal, -- specified in transport-belt-pictures.lua
