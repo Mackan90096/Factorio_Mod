@@ -145,5 +145,34 @@ data:extend({
     energy_usage = "480kW",
     distribution_effectivity = 0.5,
     num_module_slots = 2
+  },
+  {
+    type = "decorative",
+    name = "bacon",
+    icon = "__Factorio_Mod__/graphics/icons/bacon.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {mining_time = 1, result = "bacon"},
+    max_health = 50,
+    corpse = "small-remnants",
+    order = "a",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 90
+      }
+    },
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    fast_replaceable_group = "decorative",
+    inventory_size = 0,
+    pictures =
+    {
+      filename = "__Factorio_Mod__/graphics/icons/bacon.png",
+      priority = "extra-high",
+      width = 48,
+      height = 34,
+      shift = {0.2, 0}
+    }
   }
 })

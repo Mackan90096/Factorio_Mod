@@ -1,3 +1,4 @@
+require("prototypes.recipe.furnace")
 data:extend({
  {
     type = "recipe",

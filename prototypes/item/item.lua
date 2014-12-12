@@ -97,5 +97,24 @@ data:extend({
     order = "a",
     place_result = "small-beacon",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "raw-bacon",
+    icon = "__Factorio_Mod__/graphics/icons/raw-bacon.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "raw-material",
+    order = "a",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "bacon",
+    icon = "__Factorio_Mod__/graphics/icons/bacon.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "raw-material",
+    order = "a",
+    place_result = "bacon",
+    stack_size = 50
   }
 })
