@@ -59,13 +59,33 @@ data:extend({
     stack_size = 50
   },
   {
-    type = "item",
+   type = "item",
     name = "smart-splitter",
     icon = "__Factorio_Mod__/graphics/icons/smartsplitter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "a",
     place_result = "smart-splitter",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "super-inserter",
+    icon = "__Factorio_Mod__/graphics/icons/superinserter.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "belt",
+    order = "a",
+    place_result = "super-inserter",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "path",
+    icon = "__Factorio_Mod__/graphics/path.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "raw-material",
+    order = "a",
+    place_result = "path",
     stack_size = 50
   }
 })

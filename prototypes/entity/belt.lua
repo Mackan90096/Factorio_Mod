@@ -1,4 +1,4 @@
-require ("prototypes.beltgraph")
+require ("prototypes.entity.beltgraph")
 data:extend({
   {
     type = "transport-belt-to-ground",
@@ -8,7 +8,7 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "super-b2g"},
     max_health = 70,
     corpse = "small-remnants",
-    max_distance = 5,
+    max_distance = 100,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",

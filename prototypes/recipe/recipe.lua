@@ -97,7 +97,18 @@ data:extend({
       {"advanced-circuit", 20}
     },
     results = {
-      {type="item", name="smart-spitter", amount=1}
+      {type="item", name="smart-splitter", amount=1}
+    }
+  },
+  {
+    type = "recipe",
+    name = "path",
+    enabled = "true",
+    ingredients = {
+      {"stone", 2}
+    },
+    results = {
+      {type="item", name="path", amount=1}
     }
   }
 })
