@@ -87,5 +87,15 @@ data:extend({
     order = "a",
     place_result = "path",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "small-beacon",
+    icon = "__base__/graphics/icons/basic-beacon.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "raw-material",
+    order = "a",
+    place_result = "small-beacon",
+    stack_size = 50
   }
 })

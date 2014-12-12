@@ -84,7 +84,7 @@ data:extend({
       {"iron-gear-wheel", 20}
     },
     results = {
-      {type="item", name="super-belt", amount=1}
+      {type="item", name="super-b2g", amount=1}
     }
   },
   {
@@ -109,6 +109,32 @@ data:extend({
     },
     results = {
       {type="item", name="path", amount=1}
+    }
+  },
+  {
+    type = "recipe",
+    name = "small-beacon",
+    enabled = "true",
+    ingredients = {
+      {"copper-cable", 10},
+      {"electronic-circuit", 20},
+      {"advanced-circuit", 20}
+    },
+    results = {
+      {type="item", name="small-beacon", amount=1}
+    }
+  },
+  {
+    type = "recipe",
+    name = "super-inserter",
+    enabled = "true",
+    ingredients = {
+      {"fast-inserter", 1},
+      {"iron-plate", 4},
+      {"electronic-circuit", 4}
+    },
+    results = {
+      {type="item", name="super-inserter", amount=1}
     }
   }
 })

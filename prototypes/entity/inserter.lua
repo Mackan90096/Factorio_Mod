@@ -4,10 +4,15 @@ data:extend({
     name = "super-inserter",
     icon = "__Factorio_Mod__/graphics/icons/superinserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "super-inserter"},
+    minable =
+    {
+      hardness = 0.2,
+      mining_time = 0.5,
+      result = "super-inserter"
+    },
     max_health = 40,
     corpse = "small-remnants",
-    resistances = 
+    resistances =
     {
       {
         type = "fire",
@@ -16,19 +21,17 @@ data:extend({
     },
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
-    pickup_position = {0, -2},
-    insert_position = {0, 2.35},
+    pickup_position = {0, -1},
+    insert_position = {0, 1.35},
     energy_per_movement = 5000,
     energy_per_rotation = 5000,
-    rotation_speed = 0.02,
-    hand_size = 1.5,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
       drain = "2kW"
     },
-    extension_speed = 1.254,
+    extension_speed = 1,25,
     fast_replaceable_group = "inserter",
     working_sound =
     {
@@ -36,44 +39,44 @@ data:extend({
       sound =
       {
         {
-          filename = "__base__/sound/inserter-long-handed-1.ogg",
+          filename = "__base__/sound/inserter-fast-1.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-long-handed-2.ogg",
+          filename = "__base__/sound/inserter-fast-2.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-long-handed-3.ogg",
+          filename = "__base__/sound/inserter-fast-3.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-long-handed-4.ogg",
+          filename = "__base__/sound/inserter-fast-4.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-long-handed-5.ogg",
+          filename = "__base__/sound/inserter-fast-5.ogg",
           volume = 0.75
         }
       }
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
+      filename = "__Factorio_Mod__/graphics/inserter/fast-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-closed.png",
+      filename = "__Factorio_Mod__/graphics/inserter/fast-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-open.png",
+      filename = "__Factorio_Mod__/graphics/inserter/fast-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -103,11 +106,12 @@ data:extend({
     {
       sheet =
       {
-        filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png",
+        filename = "__Factorio_Mod__/graphics/inserter/fast-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46
       }
-    }
+    },
+    rotation_speed = 1.25
   }
 })

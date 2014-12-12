@@ -82,7 +82,7 @@ data:extend({
     collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fast_replaceable_group = "decorative",
-    picture =
+    pictures =
     {
       filename = "__Factorio_Mod__/graphics/path.png",
       priority = "extra-high",
@@ -90,5 +90,60 @@ data:extend({
       height = 32,
       shift = {0.2, 0}
     }
+  },
+  {
+    type = "beacon",
+    name = "small-beacon",
+    icon = "__base__/graphics/icons/basic-beacon.png",
+    flags = {"placeable-player", "player-creation"},
+    minable = {mining_time = 1, result = "small-beacon"},
+    max_health = 200,
+    corpse = "big-remnants",
+    dying_explosion = "huge-explosion",
+    collision_box = {{-0.6, -0.6}, {0.6, 0.6}},
+    selection_box = {{-0.75, -0.75}, {0.75, 0.75}},
+    allowed_effects = {"consumption", "speed", "pollution"},
+    base_picture =
+    {
+      filename = "__Factorio_Mod__/graphics/beacon/basic-beacon-base.png",
+      width = 58,
+      height = 47,
+      shift = { 0.34, 0.06}
+    },
+    animation =
+    {
+      filename = "__Factorio_Mod__/graphics/beacon/basic-beacon-antenna.png",
+      width = 34,
+      height = 31,
+      line_length = 8,
+      frame_count = 32,
+      shift = { -0.03, -1.72},
+      animation_speed = 0.5
+    },
+    animation_shadow =
+    {
+      filename = "__Factorio_Mod__/graphics/beacon/basic-beacon-antenna-shadow.png",
+      width = 63,
+      height = 49,
+      line_length = 8,
+      frame_count = 32,
+      shift = { 3.12, 0.5},
+      animation_speed = 0.5
+    },
+    radius_visualisation_picture =
+    {
+      filename = "__base__/graphics/entity/basic-beacon/beacon-radius-visualization.png",
+      width = 12,
+      height = 12
+    },
+    supply_area_distance = 3,
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input"
+    },
+    energy_usage = "480kW",
+    distribution_effectivity = 0.5,
+    num_module_slots = 2
   }
 })
