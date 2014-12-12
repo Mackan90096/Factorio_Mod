@@ -123,7 +123,7 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "super-splitter"},
     max_health = 80,
     corpse = "medium-remnants",
-    resistances = 
+    resistances =
     {
       {
         type = "fire",
@@ -181,6 +181,82 @@ data:extend({
       west =
       {
         filename = "__Factorio_Mod__/graphics/splitter/splitter-west.png",
+        frame_count = 32,
+        line_length = 16,
+        priority = "extra-high",
+        width = 47,
+        height = 79,
+        shift = {0.25, 0.05}
+      },
+    },
+    ending_patch = ending_patch_prototype
+  },
+{
+    type = "splitter",
+    name = "smart-splitter",
+    icon = "__Factorio_Mod__/graphics/icons/smartsplitter.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "smart-splitter"},
+    max_health = 80,
+    corpse = "medium-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 60
+      }
+    },
+    collision_box = {{-0.9, -0.1}, {0.9, 0.1}},
+    selection_box = {{-0.9, -0.5}, {0.9, 0.5}},
+    animation_speed_coefficient = 32,
+    structure_animation_speed_coefficient = 0.7,
+    structure_animation_movement_cooldown = 10,
+    belt_horizontal = super_belt_horizontal,
+    belt_vertical = super_belt_vertical,
+    ending_top = super_belt_ending_top,
+    ending_bottom = super_belt_ending_bottom,
+    ending_side = super_belt_ending_side,
+    starting_top = super_belt_starting_top,
+    starting_bottom = super_belt_starting_bottom,
+    starting_side = super_belt_starting_side,
+    ending_patch = ending_patch_prototype,
+    fast_replaceable_group = "splitter",
+    speed = 1.6875,
+    structure =
+    {
+      north =
+      {
+        filename = "__Factorio_Mod__/graphics/smartsplitter/splitter-north.png",
+        frame_count = 32,
+        line_length = 16,
+        priority = "extra-high",
+        width = 80,
+        height = 35,
+        shift = {0.225, 0}
+      },
+      east =
+      {
+        filename = "__Factorio_Mod__/graphics/smartsplitter/splitter-east.png",
+        frame_count = 32,
+        line_length = 16,
+        priority = "extra-high",
+        width = 46,
+        height = 81,
+        shift = {0.075, 0}
+      },
+      south =
+      {
+        filename = "__Factorio_Mod__/graphics/smartsplitter/splitter-south.png",
+        frame_count = 32,
+        line_length = 16,
+        priority = "extra-high",
+        width = 82,
+        height = 36,
+        shift = {0.075, 0}
+      },
+      west =
+      {
+        filename = "__Factorio_Mod__/graphics/smartsplitter/splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",

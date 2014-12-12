@@ -86,5 +86,18 @@ data:extend({
     results = {
       {type="item", name="super-belt", amount=1}
     }
+  },
+  {
+    type = "recipe",
+    name = "smart-splitter",
+    enabled = "true",
+    ingredients = {
+      {"super-belt", 4},
+      {"iron-gear-wheel", 15},
+      {"advanced-circuit", 20}
+    },
+    results = {
+      {type="item", name="smart-spitter", amount=1}
+    }
   }
 })

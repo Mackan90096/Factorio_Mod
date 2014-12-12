@@ -56,5 +56,16 @@ data:extend({
     subgroup = "belt",
     order = "a",
     place_result = "super-b2g",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "smart-splitter",
+    icon = "__Factorio_Mod__/graphics/icons/smartsplitter.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "belt",
+    order = "a",
+    place_result = "smart-splitter",
+    stack_size = 50
   }
 })
