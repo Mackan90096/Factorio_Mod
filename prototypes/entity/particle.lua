@@ -1,4 +1,5 @@
 data:extend({
+{
     type = "particle",
     name = "bacon-ore-particle",
     flags = {"not-on-map"},
@@ -65,4 +66,5 @@ data:extend({
         frame_count = 1
       }
     }
+  }
 })

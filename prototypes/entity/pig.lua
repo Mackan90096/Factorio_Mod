@@ -1,7 +1,14 @@
 require("prototypes.entity.particle")
 require("prototypes.entity.noise")
 data:extend({
-	{
+
+   {
+      type = "autoplace-control",
+      name = "bacon-ore",
+      richness = true,
+      order = "b-f-g"
+    },
+    {
     type = "resource",
     name = "bacon-ore",
     icon = "__Factorio_Mod__/graphics/icons/bacon-ore.png",
